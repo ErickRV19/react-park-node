@@ -1,0 +1,23 @@
+.empleados{
+    justify-content: center;
+}
+
+.emple{
+    display: flex;
+    flex-direction: row;
+    table{
+        background-color: #303F9F;
+        color: white;
+        padding: 0em 1em;
+    }
+}
+.empleado{
+    display: flex;
+    flex-direction: column;
+    margin: 1px 15px;
+    div{
+        margin: 2px 1px;
+        text-align: center;
+
+    }
+}

@@ -1,0 +1,38 @@
+.App {
+  
+  text-align: center;
+  background-color: black;
+  p{
+    color: white;
+  }
+}
+
+.flex{
+  display: flex;
+}
+
+
+.sidebar{
+  background-color: #2b367e;
+  color: white;
+  font-size: larger;
+  font-weight: 800;
+  width: 14rem;
+  height: calc(108vh - 60px);
+  border-right: 3px solid rgba(128, 128, 128, 0.699);
+  ul{
+    list-style: none;
+    padding: 1rem 2rem;
+  }
+  li{
+    margin-bottom: 1rem;
+  }
+  a{
+    color: white;
+    text-decoration: none;
+  }
+}
+
+.content{
+  margin: 2em;
+}
