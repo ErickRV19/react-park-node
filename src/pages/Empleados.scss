@@ -1,6 +1,16 @@
 .empleados{
     justify-content: center;
 }
+.title {
+    display: flex;
+    flex-direction: row;
+    justify-content:space-between;
+    align-items: center;
+   
+}
+.title *{
+    padding: 0px 90px;
+}
 
 .emple{
     display: flex;
@@ -20,4 +30,25 @@
         text-align: center;
 
     }
+}
+.tabla-empl th{
+    padding: 3px 0px;
+
+}
+.tabla th{
+    padding: 11px 0px;
+}
+.sucursal{
+    display: flex;
+    flex-direction: column;
+    margin: 1px 15px;
+    div{
+        margin: 9px 1px;
+        text-align: center;
+
+    }
+}
+
+.tabla-usuarios th{
+    padding: 4px 0px;
 }
